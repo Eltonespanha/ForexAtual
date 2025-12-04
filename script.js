@@ -3,7 +3,7 @@ const taxaConversaoReais = 5.32; // valor manual da célula G11 da Tabela 3
 
 // Recupera valores salvos
 document.getElementById('contratos').value = localStorage.getItem('contratos') || '0.01';
-document.getElementById('precoMedio').value = localStorage.getItem('precoMedio') || '1.16367';
+document.getElementById('precoMedio').value = localStorage.getItem('precoMedio') || '1.16573';
 document.getElementById('operacao').value = localStorage.getItem('operacao') || 'venda';
 
 async function atualizarTabela() {
@@ -71,3 +71,4 @@ document.getElementById('operacao').addEventListener('change', () => {
   atualizarTabela();
 
 });
+
